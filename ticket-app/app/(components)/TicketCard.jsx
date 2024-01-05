@@ -14,6 +14,7 @@ const TicketCard = () => {
       </div>
       <h4>Ticket Title</h4>
       <hr className="h-px border-0 bg-page mb-2"></hr>
+      <p className="whitespace-pre-wrap"></p>
       <ProgressDisplay></ProgressDisplay>
       <StatusDisplay></StatusDisplay>
     </div>
