@@ -13,7 +13,7 @@ const TicketCard = () => {
         </div>
       </div>
       <h4>Ticket Title</h4>
-      <hr></hr>
+      <hr className="h-px border-0 bg-page mb-2"></hr>
       <ProgressDisplay></ProgressDisplay>
       <StatusDisplay></StatusDisplay>
     </div>
