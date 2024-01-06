@@ -9,7 +9,7 @@ const TicketForm = () => {
     const name = e.target.name;
 
     setFormData((preState) => ({
-      ...prevState,
+      ...preState,
       [name]: value,
     }));
   };
@@ -52,7 +52,7 @@ const TicketForm = () => {
           type="text"
           onChange={handleChange}
           required={true}
-          value={formData.title}
+          value={formData.description}
           rows="5"
         />
         <label>Category</label>
