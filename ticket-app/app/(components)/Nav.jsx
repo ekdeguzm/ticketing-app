@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faTicket } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 const Nav = () => {
   return (
@@ -14,7 +14,7 @@ const Nav = () => {
         </Link>
       </div>
       <div>
-        <p className="text-default-text">hello@email.com</p>
+        <p className=" text-default-text">hello@mail.com</p>
       </div>
     </nav>
   );
