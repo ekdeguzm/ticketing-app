@@ -19,7 +19,8 @@ const getTickets = async () => {
 
 const Dashboard = async () => {
   const data = await getTickets();
-
+  
+  // test
   // Make sure we have tickets needed for production build.
   if (!data?.tickets) {
     return <p>No tickets.</p>;
